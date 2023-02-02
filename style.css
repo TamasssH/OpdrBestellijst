@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(25, 25, 25);
+    font-family: 'Merriweather', serif;
+}
+
+
+.titlebar{
+    background:white;
+    padding:20px;
+    margin-bottom:15px;
+    border-radius:10px;
+    background-image: linear-gradient(to right, green,white,red);
+    font-size: 20px;
+}
+
+.bestelLijst{
+    font-family: 'Merriweather', serif;
+    display:flex;
+    padding:5px;
+    margin-top:10px;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color:forestgreen;
+    border-radius:8px;
+}
+.fonts {
+    font-size: 10px;
+}
+
+.pizzaInfo{
+    color:white;
+    margin-top:5px;
+    margin-left:10px;
+}
+
+.bestelButton1{
+    width:30px;
+    margin-left:10px;
+}
+
+input{
+    background-color:forestgreen;
+    color:white;
+    border: none;
+    display: inline;
+    font-family: inherit;
+    font-size: 15px;
+    padding: none;
+    border-radius:2px;
+}
+
+input::placeholder{
+    background-color:forestgreen;
+    color:white;
+    display:inline;
+    font-family: inherit;
+    font-size:15px;
+    padding:none;
+    border-radius:2px;
+}
+
+input:active{
+    background-color:darkgreen;
+}
+
+.form{
+    color:white;
+    font-family: inherit;
+    font-size: 15px;
+    border-radius:2px;
+    margin:20px;
+}
+
+.form1{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding:none;
+}
+
+.bestelInfo{
+    margin-top: 35px;
+    color:white;
+    font-family: inherit;
+    font-size: 30px;
+    border-radius:2px;
+}
