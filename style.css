@@ -20,7 +20,7 @@ body{
     margin-top:10px;
     flex-direction:row;
     justify-content: space-between;
-    background-color:forestgreen;
+    background-color:white;
     border-radius:8px;
 }
 .fonts {
@@ -68,14 +68,19 @@ input:active{
     font-family: inherit;
     font-size: 15px;
     border-radius:2px;
-    margin:20px;
+    margin-top:20px;
+    margin-left:10px;
+    
 }
 
 .form1{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-    padding:none;
+    padding:10px;
+    margin-top:5px;
+    flex-direction:column;
+    border-radius:8px;
 }
 
 .bestelInfo{
@@ -84,4 +89,31 @@ input:active{
     font-family: inherit;
     font-size: 30px;
     border-radius:2px;
+}
+
+.bestelForm{
+    width:fit-content;
+}
+
+.optionB {
+    color:white;
+    font-family: inherit;
+    font-size: 15px;
+    border-radius:2px;
+    margin-left:10px;
+    margin-top:20px;
+}
+
+img{
+    width: 300px;
+    border-style:dashed;
+    border-color:white;
+    margin:20px;
+    
+}
+
+.bestelLijst1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
