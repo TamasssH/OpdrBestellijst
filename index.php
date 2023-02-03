@@ -135,7 +135,7 @@
             
             <div class="form">
                 <label for="bezorgKeuze">Ophalen of laten bezorgen.</label>
-                    <select class="form1">
+                    <select name="bezorg" class="form1">
                         <option value="bezorgen">Laten bezorgen</option>
                         <option value="afhalen">Afhalen</option>
                     </select>
@@ -145,8 +145,20 @@
         </form>
         
     </div>
-
+        
     <?php
+
+        if(isset($_POST["submit"])){
+            $fname = $_POST["fname"];
+            $lname = $_POST["lname"];
+            $adres =  $_POST["adres"];
+            $postcode =  $_POST["postcode"];
+            $plaats =  $_POST["plaats"];
+            $besteldatum =  $_POST["besteldatum"];
+            $bezorg =  $_POST["bezorg"];
+
+            
+        }
 
     ?>
 
