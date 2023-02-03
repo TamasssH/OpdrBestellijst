@@ -66,10 +66,9 @@ input:active{
 .form{
     color:white;
     font-family: inherit;
-    font-size: 15px;
-    border-radius:2px;
+    font-size: 25px;
+    margin:auto;
     margin-top:20px;
-    margin-left:10px;
     
 }
 
@@ -77,19 +76,22 @@ input:active{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-    padding:10px;
+    margin:auto;
+    margin-top:5px;
     flex-direction:column;
     border-radius:8px;
 }
 
 .bestelInfo{
+    margin:auto;
+    margin-top: 10px;
     color:white;
     font-family: inherit;
     font-size: 30px;
-    border-radius:2px;
 }
 
 .bestelForm{
+    width:fit-content;
     margin:auto;
 }
 
@@ -115,3 +117,4 @@ img{
     flex-direction: row;
     justify-content: space-between;
 }
+

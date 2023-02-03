@@ -138,9 +138,9 @@
                     <select name="bezorg" class="form1">
                         <option value="bezorgen">Laten bezorgen</option>
                         <option value="afhalen">Afhalen</option>
-                    </select>
-                <input type="submit" value="Bestelling afronden.">    
+                    </select>    
             </div>
+                <input type="submit" value="Bestelling afronden.">
 
         </form>
         
@@ -157,7 +157,6 @@
             $besteldatum =  $_POST["besteldatum"];
             $bezorg =  $_POST["bezorg"];
 
-            
         }
 
     ?>
