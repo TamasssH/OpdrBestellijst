@@ -1,3 +1,17 @@
+<?php   
+    if(isset($_POST["submit"])){
+
+        $fname = $_POST["fname"];
+        $lname = $_POST["lname"];
+        $adres =  $_POST["adres"];
+        $postcode =  $_POST["postcode"];
+        $plaats =  $_POST["plaats"];
+        $besteldatum =  $_POST["besteldatum"];
+        $bezorg =  $_POST["bezorg"];
+
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -99,7 +113,7 @@
     <div class="bestelForm">
         <h2 class="bestelInfo">bestelling plaatsen.</h2>
 
-        <form action="" method="post" class="form1">
+        <form action="order.php" method="post" class="form1">
 
             <div class="form">
                 <div><label for="fname">Voornaam: </label></div>
@@ -140,26 +154,15 @@
                         <option value="afhalen">Afhalen</option>
                     </select>    
             </div>
+
                 <input type="submit" value="Bestelling afronden.">
+
 
         </form>
         
     </div>
         
-    <?php
-
-        if(isset($_POST["submit"])){
-            $fname = $_POST["fname"];
-            $lname = $_POST["lname"];
-            $adres =  $_POST["adres"];
-            $postcode =  $_POST["postcode"];
-            $plaats =  $_POST["plaats"];
-            $besteldatum =  $_POST["besteldatum"];
-            $bezorg =  $_POST["bezorg"];
-
-        }
-
-    ?>
+    
 
 </body>
 
