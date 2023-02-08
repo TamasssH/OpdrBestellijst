@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -145,20 +143,15 @@
 
                 <input type="submit" value="bestellen" name="order">
 
-                <?php   
-                    if(isset($_POST["order"])){
-
-                        $fname = $_POST["fname"];
-                        $lname = $_POST["lname"];
-                        $adres =  $_POST["adres"];
-                        $postcode =  $_POST["postcode"];
-                        $plaats =  $_POST["plaats"];
-                        $besteldatum =  $_POST["besteldatum"];
-                        $bezorg =  $_POST["bezorg"];
-
-                    echo "hello please help me i am forced to do php.";
+                <?php
+                
+                    if(isset($_POST['submit'])){
+                        
+                        echo "hello please help me i am forced to do php.";
                     }
+                
                 ?>
+
         </form>
         
     </div>
